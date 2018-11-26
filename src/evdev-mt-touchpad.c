@@ -1741,7 +1741,7 @@ tp_process_state(struct tp_dispatch *tp, uint64_t time)
 
 		tp_thumb_update_touch(tp, t, time);
 		tp_palm_detect(tp, t, time);
-		tp_detect_wobbling(tp, t, time);
+		//tp_detect_wobbling(tp, t, time);
 		tp_motion_hysteresis(tp, t);
 		tp_motion_history_push(t);
 
